@@ -1,0 +1,120 @@
+.flex {
+     display: flex;
+}
+.items {
+    align-items: right;
+    align-items: center
+}
+.justify-between {
+    justify-content: space-between;
+
+}
+
+.btn{
+    padding: 0.5rem -4rem;
+    font-size: 1rem;
+    font-weight:600;
+    border: 2px solid transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 8px;
+    font-size: 1rem;
+    line-height: -1rem;
+    height: 30px
+    
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color: var(--primary);
+}
+
+.btn-secondary{
+background: transparent;
+color: var(--primary);
+border-color: var(--primary);
+border-radius: 8px;
+width: 190px;
+height: 30px;
+font-size: 1rem;
+line-height: 1.60rem;
+}
+.btn-secondary:hover{
+background-color: var(--primary);
+color: var(--secondary);
+
+}
+
+.btn-tertiary{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 8px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    height: 35px}
+    
+    .btn-tertiary:hover{
+        background-color: var(--primary);
+        color: var(--secondary);
+    }
+
+    .btn-fourth{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 8px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    height: 35px
+}
+
+.btn-fourth:hover{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.btn-fifth{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 8px;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 20px  0px rgb(156, 154, 154);
+    transition: transform 0.5px;
+}
+
+.btn-fifth:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+
+
+.flex-1{
+    flex:0.5;
+
+}
+
+.flex-2{
+    flex:1.5;
+}
+
+
+.justify-center{
+    justify-content: center;
+
+}
+
+
+
